@@ -223,7 +223,7 @@ bool bitSet::test(size_t pos) const {
 }
 
 size_t bitSet::size() const {
-  return (this->m_size * 64);
+  return (this->m_size * nuOfBits);
 }
 
 bool bitSet::any() const noexcept { 
